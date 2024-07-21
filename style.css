@@ -1,0 +1,1169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 300vh;
+
+}
+
+header {
+    background-color: rgb(107, 56, 178);
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1.5rem;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    height: 70px;
+}
+
+header div {
+    color: white;
+
+}
+
+.bars {
+    display: none;
+}
+
+#show-bars {
+    display: none;
+}
+
+.ola h1 {
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: color;
+}
+
+a:hover {
+    color: midnightblue;
+
+
+}
+
+.btn-1 {
+    background-color: orangered;
+    color: white;
+    padding: 20px;
+    border: none;
+    outline: none;
+    /* width: 100px; */
+    border-radius: 40px;
+}
+
+.hero-section {
+    background-color: rgb(115, 56, 197);
+    height: 70vh;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container1 {
+    padding: 5em 1em;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+.content1 h1 {
+    font-size: 3rem;
+    color: white;
+    font-weight: bolder;
+    border-bottom: 2rem;
+}
+
+.content1 p {
+    margin-top: 0.5em;
+    font-size: 18px;
+    line-height: 1.7;
+    color: white;
+    max-width: 400px;
+}
+
+.content-btn1,
+button {
+    margin-top: 13px;
+}
+
+.content2 img {
+    max-width: 300px;
+}
+
+.pop1 {
+    background-color: orangered;
+    color: white;
+    padding: 17px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+.contentStick {
+    display: flex;
+    gap: 10px;
+    margin-top: 13px;
+
+}
+
+.record {
+    margin-top: 3rem;
+    /* height: 40vh; */
+}
+
+.records {
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+
+    /* padding: 0 2rem;   */
+}
+
+.num1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.record-content p {
+    color: grey;
+    /* font-size: 1em; */
+    line-height: 1.4;
+    text-align: center;
+}
+
+.line1 {
+    border: 0.5px solid rgb(213, 206, 206);
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+/* Gallery styles */
+
+.gallery {
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+.gallery1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.gallery-pic img {
+    max-width: 400px;
+    height: 60vh;
+}
+
+.gally-head h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.gally-head p {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color: grey;
+}
+
+.gallery-para {
+    margin-top: 2rem;
+}
+
+.para1 h1 {
+    font-size: 20px;
+    margin-top: 16px;
+    font-weight: bolder;
+}
+
+.para1 p {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    color: grey;
+
+}
+
+/* pictures styles */
+.pictures {
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+.picture1 {
+    /* padding: 1rem; */
+    overflow: hidden;
+}
+
+.pic-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.picture-content h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+
+}
+
+.picture-content p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: grey;
+}
+
+.picture-content1 {
+    margin-top: 2.2rem;
+}
+
+.pic-cont h1 {
+    font-size: 20px;
+    margin-top: 16px;
+    font-weight: bolder;
+}
+
+.pic-cont p {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    color: grey;
+}
+
+.pictures-images img {
+    max-height: 500px;
+    max-width: 400px;
+}
+
+/* services styles */
+.service {
+    margin-top: 10px;
+    /* height: 60vh; */
+}
+
+.serviceChain {
+    /* padding: 2rem; */
+
+}
+
+.chain {
+    text-align: center;
+
+}
+
+.chain h1 {
+    font-size: 3rem;
+}
+
+.chain p {
+    font-size: 18px;
+    margin-top: 1rem;
+    color: grey;
+}
+
+.circles {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+
+}
+
+.circle {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.circle1 {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.circle2 {
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.wrap-content h1 {
+    margin-top: 1rem;
+    font-size: 18px;
+
+
+}
+
+.wrap-content p {
+    color: grey;
+    margin-top: 10px;
+    font-size: 16px;
+    max-width: 400px;
+}
+
+.boom {
+    max-width: 350px;
+}
+
+/* big-boxes styles */
+.big-boxes {
+    margin-top: 2rem;
+    padding: 0 2rem;
+    background-color: rgb(4, 4, 47);
+}
+
+.big-boxes h1 {
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.bat {
+    font-size: 2.5rem;
+}
+
+.boxes {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.box {
+    display: flex;
+    gap: 1em;
+
+
+}
+
+.box img {
+    max-width: 50px;
+}
+
+.box1 h1 {
+    margin-top: 1em;
+    margin-bottom: 6px;
+    color: white;
+}
+
+.box1 p {
+    color: grey;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 350px;
+}
+
+.secondBoxes {
+    margin-top: 0.5rem;
+    /* padding: 0 2rem; */
+}
+
+.secondBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* testimonais styles */
+.testimimonial {
+    padding-top: 4rem;
+    /* height: 58vh; */
+    background-color: rgb(4, 4, 47);
+}
+
+.testimonial-content {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 70%;
+    margin: auto;
+}
+
+.testimonial-content {
+    color: white;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.testy-cont1 {
+    background-color: white;
+    /* height: 20vh; */
+     padding: 1em 0.5rem; 
+    display: flex;
+   
+     align-items: center; 
+    gap: 10px;
+    width: 100%;
+    transition: all 1s;
+}
+
+.testy-cont1:hover {
+    background-color: rgb(188, 155, 155);
+}
+
+.testy-cont1 p {
+    font-size: 1.5rem;
+    color: black;
+    font-family: sans-serif;
+}
+
+.testy-cont1 img {
+    width: 100px;
+}
+
+.oban {
+    text-transform: capitalize;
+    text-decoration: 4px solid rgb(129, 179, 129) underline;
+
+}
+
+
+/* pricing section */
+
+.price-section {
+    margin-top: 3rem;
+    overflow: hidden;
+}
+
+.prices {
+    text-align: center;
+}
+
+.prices h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.prices p {
+    font-size: 1.3em;
+    line-height: 1.5;
+
+}
+
+.para {
+    color: rgb(133, 88, 88);
+}
+
+.bagdes {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    gap: 6em;
+    overflow: hidden;
+}
+
+.prices-badge {
+    background-color: whitesmoke;
+}
+
+.prices-badge {
+    padding: 2.5rem;
+}
+
+.prices-badges {
+    background-color: wheat;
+    box-shadow: 5px 7px 7px;
+    padding: 2em 2em;
+}
+
+.badges p {
+    padding: 1.8em 1em;
+    color: grey;
+    font-family: sans-serif;
+    border-bottom: 0.5px solid grey;
+}
+
+.btn12 {
+    color: red;
+    margin-bottom: 1.4em;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.highlight {
+    font-size: 3rem;
+}
+
+.btn15 {
+    margin-top: 19px;
+}
+
+.btn16 {
+    margin-top: 19px;
+
+}
+
+.btn-16 {
+    padding: 20px;
+    color: white;
+    border: none;
+    background-color: orangered;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.btn-15 {
+    padding: 20px;
+    color: white;
+    border: none;
+    background-color: black;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+/* frequently styles  */
+.frequently {
+    margin-top: 2em;
+    background-color: midnightblue;
+    overflow: hidden;
+    height: 70vh;
+}
+
+.faq-content {
+    padding-top: 2em;
+    overflow: hidden;
+}
+
+.FAQ {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+
+.FAQ1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 1em;
+}
+
+.FAQQQS h1 {
+    color: white;
+    font-family: sans-serif;
+}
+
+.boom {
+    font-size: 2.2rem;
+    line-height: 1.5;
+    margin-bottom: 0.2em;
+}
+
+.boom-para {
+    color: grey;
+    line-height: 1.4;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    font-family: sans-serif;
+    max-width: 380px;
+}
+
+.FAQCONT h1 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.FAQCONT p {
+    color: grey;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.letters {
+    background-color: white;
+    padding: 0.2rem;
+    border-radius: 20px;
+}
+
+.letters h1 {
+    margin-top: 0.5em;
+    margin-bottom: 1rem;
+}
+
+.letters p {
+    margin-bottom: 0.5rem;
+    color: grey;
+    font-family: sans-serif;
+}
+
+.link1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid grey;
+}
+
+/* updates */
+.update {
+    margin-top: 40px;
+}
+
+/* .update1{
+    padding-top: 1em;
+} */
+.update {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+input {
+    width: 50%;
+    height: 40px;
+
+    font-size: 17px;
+    margin: auto;
+    outline: none;
+    border: none;
+    border: 1px solid lightblue;
+}
+
+.pick {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.submit-btn {
+    background-color: orangered;
+    width: 30%;
+    margin: auto;
+    padding: 0.6em;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 1em;
+
+}
+
+.submit-btn p {
+    text-align: center;
+}
+
+.update1 h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.update1 p {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    border-bottom: 1rem;
+    color: grey;
+}
+
+/* contact styles */
+.contact {
+    margin-top: 70px;
+}
+
+.contacts {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 3rem;
+
+}
+
+.head {
+    margin-bottom: 1rem;
+    color: grey;
+}
+
+.contact1 p {
+    margin: 10px;
+}
+
+.classic {
+    color: rgb(92, 38, 38);
+}
+
+.writeup P {
+    text-align: center;
+}
+
+/* mobile phone responsiveness */
+@media all and (max-width:430px) {
+    .btn-1 {
+        position: relative;
+        right: 30px;
+    }
+
+    header {
+        padding: 1em;
+    }
+
+    nav {
+        background-color: transparent;
+        position: fixed;
+        z-index: -1;
+        top: 6em;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 0%;
+        padding: 2em 0 0 2em;
+        transform: all 0.5s ease-in-out;
+        overflow: hidden;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    } 
+    .btn-1{
+  padding: 15px;
+    } 
+
+    .bars {
+        display: block;
+        padding: 13px;
+        border-radius: 4px;
+        position: relative;
+        right: 40px;
+    }
+
+    header #show-bars:checked~nav {
+        background-color: orangered;
+        height: 50%;
+        cursor: pointer;
+        transition: all 2s;
+    }
+
+    nav ul li a {
+        text-decoration: underline;
+        font-size: 1.5rem;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content1 h1 {
+        width: 370px;
+        /* text-align: center;    */
+        line-height: 1.2;
+        font-family: sans-serif;
+        font-size: 40px;
+    }
+
+    .content1 p {
+        /* text-align: center; */
+        width: 320px;
+        line-height: 1.5;
+        margin-top: 1rem;
+    }
+    .ola h1{
+        font-size: 18px;
+    }
+
+    /* .content-btn1,
+    button {
+        margin-left: 2rem;
+    } */
+
+    .contentStick {
+        margin-left: 4rem;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-section {
+        height: 110vh;
+    }
+
+    .records {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .num1 {
+        font-size: 2rem;
+        position: relative;
+        /* right: 1rem; */
+
+    }
+
+    .record-content p {
+        /* width: 350px; */
+        padding: 0 2rem;
+        font-size: 1.2rem;
+        color: black;
+        font-family: sans-serif;
+        position: relative;
+        right: 1rem;
+
+    }
+
+    .gallery1 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 10px;
+        overflow: hidden;
+    }
+
+    .gallery-pic img {
+        width: 100%;
+        /* height: 40vh; */
+        position: relative;
+        left: 20px;
+
+    }
+
+    .gally-head h1 {
+        font-size: 2rem;
+        line-height: 1.4;
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+    .gally-head p {
+        font-size: 1.2em;
+        line-height: 1.5;
+        font-family: sans-serif;
+        padding: 0 1rem;
+        /* text-align: center; */
+    }
+
+    .gallery-para {
+        padding: 0 2rem;
+    }
+
+    .para1 p {
+        font-size: 17px;
+        line-height: 1.6;
+
+
+    }
+
+    .pic-wrapper {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+    }
+
+    .picture-content1 {
+        padding: 0 2rem;
+    }
+
+    .picture-content h1 {
+        font-size: 28px;
+        font-family: sans-serif;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    .picture-content p {
+        font-size: 20px;
+        width: 400px;
+        /* text-align: center; */
+        line-height: 1.4;
+        color: grey;
+        font-family: sans-serif;
+        padding: 2px;
+    }
+
+    .pic-cont p {
+        color: grey;
+        font-size: 18px;
+        width: 360px;
+        line-height: 1.4;
+    }
+
+    .pictures-images img {
+        position: relative;
+        right: 20px;
+        width: 100%;
+    }
+
+    .chain h1 {
+        font-size: 40px;
+    }
+
+    .chain p {
+        font-size: 20px;
+        line-height: 1.7;
+    }
+
+    .circles {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .wraps {
+        display: flex;
+        gap: 10px;
+    }
+
+    .wrap-content p {
+        font-size: 19px;
+        max-width: 240px;
+    }
+
+    .wrap-content h1 {
+        font-size: 20px;
+        font-family: sans-serif;
+
+    }
+
+    .boom {
+        width: 300px;
+    }
+
+    .big-boxes {
+        margin-top: 4rem;
+    }
+
+    .bat {
+        font-size: 30px;
+        text-align: center;
+        line-height: 1.7;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        position: relative;
+        right: 10px;
+
+    }
+
+    .box img {
+        width: 38px;
+    }
+
+    .box {
+        display: flex;
+        gap: 1em;
+    }
+
+    .box1 h1 {
+        position: relative;
+        right: 30px;
+        font-size: 20px;
+    }
+
+    .box1 p {
+
+        max-width: 270px;
+    }
+
+    .secondBoxes {
+        height: 50vh;
+
+    }
+
+    .secondBox {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 10px;
+    }
+
+    .testimimonial {
+        height: 80vh;
+    }
+
+    .testimonial-content h1 {
+        font-size: 28px;
+    }
+
+    .testy-cont1 {
+        display: flex;
+        flex-direction: column;
+       position: relative;
+       right: 2rem;
+    }
+
+    .testy p {
+        font-size: 18px;
+    }
+
+    .price-section {
+        padding-top: 1rem;
+    }
+
+    .para {
+        width: 340px;
+        position: relative;
+        left: 1em;
+    }
+
+    .bagdes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-16 {
+        position: relative;
+        right: 1rem;
+    }
+
+    .btn-15 {
+        position: relative;
+        right: 1rem;
+    }
+
+    .frequently {
+        height: 120vh;
+    }
+
+    .FAQ {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .letters {
+        position: relative;
+        bottom: 6rem;
+        height: 50vh;
+    }
+
+    .letters h1 {
+        text-align: center;
+    }
+
+    .letters p {
+        text-align: center;
+        line-height: 1.7;
+    }
+
+    .FAQQQS h1 {
+        font-size: 33px;
+        width: 400px;
+        text-align: center;
+    }
+
+    .FAQCONT h1 {
+        font-size: 27px;
+        position: relative;
+        right: 3rem;
+    }
+
+    /* .FAQCONT p{
+    max-width: 400px;
+ } */
+    .letters {
+        width: 90%;
+    }
+
+    .link1 p {
+        color: black;
+    }
+
+    .FAQQQS p {
+        line-height: 1.8;
+    }
+
+    .update {
+        margin-top: 3rem;
+        padding: 0 2rem;
+    }
+
+    .update1 h1 {
+        font-size: 24px;
+    }
+
+    .update1 p {
+        font-size: 18px;
+
+    }
+
+    .pick {
+        position: relative;
+        right: 20px;
+    }
+
+    input {
+        width: 90%;
+        position: relative;
+        right: 20px;
+
+    }
+
+    .contacts {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+
+    }
+
+    .bag {
+
+        position: relative;
+        right: 10px;
+    }
+
+
+}

@@ -123,7 +123,7 @@ button {
 .pop1 {
     background-color: orangered;
     color: white;
-    padding: 17px;
+    padding: 16px;
     border: none;
     outline: none;
     border-radius: 30px;
@@ -150,7 +150,7 @@ button {
 }
 
 .num1 {
-    font-size: 5rem;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -195,8 +195,10 @@ button {
 
 .gally-head p {
     margin-top: 10px;
-    font-size: 1.3rem;
+    font-size: 18px;
     color: grey;
+    text-align: center;
+    max-width: 400px;
 }
 
 .gallery-para {
@@ -226,6 +228,7 @@ button {
 .picture1 {
     /* padding: 1rem; */
     overflow: hidden;
+  
 }
 
 .pic-wrapper {
@@ -243,25 +246,29 @@ button {
 }
 
 .picture-content p {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 10px;
     color: grey;
+    text-align: center;
+    max-width: 400px;
+   
 }
 
 .picture-content1 {
     margin-top: 2.2rem;
+ 
 }
 
 .pic-cont h1 {
     font-size: 20px;
-    margin-top: 16px;
+    margin-top: 10px;
     font-weight: bolder;
 }
 
 .pic-cont p {
     font-size: 18px;
     font-family: sans-serif;
-    margin-top: 10px;
+    margin-top: 15px;
     color: grey;
 }
 
@@ -274,11 +281,6 @@ button {
 .service {
     margin-top: 10px;
     /* height: 60vh; */
-}
-
-.serviceChain {
-    /* padding: 2rem; */
-
 }
 
 .chain {
@@ -304,47 +306,48 @@ button {
     margin-top: 1rem;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-
 
 }
-
 .circle {
     background-color: red;
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     display: flex;
-
     align-items: center;
     justify-content: center;
+    color: white;
+ 
 }
 
 .circle1 {
     background-color: green;
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 
 }
 
 .circle2 {
     background-color: pink;
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
+     justify-content: center; 
+    color: white;
 }
 
 
 .wrap-content h1 {
     margin-top: 1rem;
     font-size: 18px;
+  
 
 
 }
@@ -353,16 +356,15 @@ button {
     color: grey;
     margin-top: 10px;
     font-size: 16px;
-    max-width: 400px;
+    /* max-width: 400px; */
 }
-
 .boom {
     max-width: 350px;
 }
 
 /* big-boxes styles */
 .big-boxes {
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 0 2rem;
     background-color: rgb(4, 4, 47);
 }
@@ -423,6 +425,7 @@ button {
     padding-top: 4rem;
     /* height: 58vh; */
     background-color: rgb(4, 4, 47);
+    width: 100%;
 }
 
 .testimonial-content {
@@ -430,7 +433,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    width: 70%;
+   max-width: 800px;
     margin: auto;
 }
 
@@ -445,7 +448,6 @@ button {
     /* height: 20vh; */
      padding: 1em 0.5rem; 
     display: flex;
-   
      align-items: center; 
     gap: 10px;
     width: 100%;
@@ -457,7 +459,7 @@ button {
 }
 
 .testy-cont1 p {
-    font-size: 1.5rem;
+    font-size: 18px;
     color: black;
     font-family: sans-serif;
 }
@@ -490,7 +492,7 @@ button {
 }
 
 .prices p {
-    font-size: 1.3em;
+    font-size: 18px;
     line-height: 1.5;
 
 }
@@ -570,7 +572,7 @@ button {
 
 /* frequently styles  */
 .frequently {
-    margin-top: 2em;
+    margin-top: 1em;
     background-color: midnightblue;
     overflow: hidden;
     height: 70vh;
@@ -584,15 +586,14 @@ button {
 .FAQ {
     display: flex;
     justify-content: center;
-    gap: 4rem;
-    margin-top: 1rem;
+    gap: 3rem;
     overflow: hidden;
 }
 
 .FAQ1 {
     display: flex;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     gap: 1em;
 }
 
@@ -602,7 +603,7 @@ button {
 }
 
 .boom {
-    font-size: 2.2rem;
+    font-size: 2rem;
     line-height: 1.5;
     margin-bottom: 0.2em;
 }
@@ -613,7 +614,7 @@ button {
     font-size: 1rem;
     margin-bottom: 2rem;
     font-family: sans-serif;
-    max-width: 380px;
+     max-width: 380px; 
 }
 
 .FAQCONT h1 {
@@ -630,17 +631,17 @@ button {
 
 .letters {
     background-color: white;
-    padding: 0.2rem;
+     padding: 0.1rem;
     border-radius: 20px;
 }
 
 .letters h1 {
     margin-top: 0.5em;
-    margin-bottom: 1rem;
+    margin-bottom: 10px; 
 }
 
 .letters p {
-    margin-bottom: 0.5rem;
+    margin-bottom: 10px;
     color: grey;
     font-family: sans-serif;
 }
@@ -648,18 +649,15 @@ button {
 .link1 {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+     padding: 1rem; 
     border-bottom: 1px solid grey;
 }
 
 /* updates */
 .update {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
-/* .update1{
-    padding-top: 1em;
-} */
 .update {
     display: flex;
     flex-direction: column;
@@ -668,9 +666,8 @@ button {
 }
 
 input {
-    width: 50%;
+     width: 80%; 
     height: 40px;
-
     font-size: 17px;
     margin: auto;
     outline: none;
@@ -704,12 +701,12 @@ input {
 
 .update1 h1 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .update1 p {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 18px;
     line-height: 1.3;
     border-bottom: 1rem;
     color: grey;
@@ -724,7 +721,7 @@ input {
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 0 3rem;
+    padding: 0 2rem;
 
 }
 
@@ -748,8 +745,8 @@ input {
 /* mobile phone responsiveness */
 @media all and (max-width:430px) {
     .btn-1 {
-        position: relative;
-        right: 30px;
+      position: relative;
+      right: 10px;
     }
 
     header {
@@ -760,7 +757,7 @@ input {
         background-color: transparent;
         position: fixed;
         z-index: -1;
-        top: 6em;
+        top: 5em;
         right: 0;
         left: 0;
         bottom: 0;
@@ -775,9 +772,9 @@ input {
         display: flex;
         flex-direction: column;
     } 
-    .btn-1{
-  padding: 15px;
-    } 
+     .btn-1{
+       padding: 14px;
+    }  
 
     .bars {
         display: block;
@@ -806,29 +803,26 @@ input {
 
     .content1 h1 {
         width: 370px;
-        /* text-align: center;    */
+         text-align: center;    
         line-height: 1.2;
         font-family: sans-serif;
         font-size: 40px;
     }
 
     .content1 p {
-        /* text-align: center; */
+         text-align: center; 
         width: 320px;
         line-height: 1.5;
         margin-top: 1rem;
     }
     .ola h1{
-        font-size: 18px;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
     }
 
-    /* .content-btn1,
-    button {
-        margin-left: 2rem;
-    } */
-
     .contentStick {
-        margin-left: 4rem;
+        margin-left: 3rem;
         overflow: hidden;
         display: flex;
         flex-direction: column;
@@ -906,7 +900,8 @@ input {
     .pic-wrapper {
         display: flex;
         flex-direction: column;
-        position: relative;
+        /* position: relative; */
+        gap: 4rem;
 
     }
 
@@ -933,9 +928,9 @@ input {
 
     .pic-cont p {
         color: grey;
-        font-size: 18px;
+        font-size: 17.4px;
         width: 360px;
-        line-height: 1.4;
+        line-height: 1.7;
     }
 
     .pictures-images img {
@@ -945,27 +940,29 @@ input {
     }
 
     .chain h1 {
-        font-size: 40px;
+        font-size: 37px;
     }
 
     .chain p {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 1.7;
+        max-width: 370px;
     }
 
     .circles {
         display: flex;
         flex-direction: column;
+        padding: 0 1rem;
 
     }
 
     .wraps {
         display: flex;
-        gap: 10px;
+        gap: 40px;
     }
 
     .wrap-content p {
-        font-size: 19px;
+        font-size: 16px;
         max-width: 240px;
     }
 
@@ -975,8 +972,10 @@ input {
 
     }
 
-    .boom {
-        width: 300px;
+    .boom-para {
+        width: 570px;
+        text-align: center;
+        padding: 0 1rem;
     }
 
     .big-boxes {
@@ -984,9 +983,9 @@ input {
     }
 
     .bat {
-        font-size: 30px;
-        text-align: center;
-        line-height: 1.7;
+        font-size: 26px;
+
+        line-height: 1.5;
     }
 
     .boxes {
@@ -1031,18 +1030,19 @@ input {
     }
 
     .testimimonial {
-        height: 80vh;
+        height: 70vh;
     }
 
     .testimonial-content h1 {
-        font-size: 28px;
+        font-size: 27px;
     }
 
     .testy-cont1 {
         display: flex;
         flex-direction: column;
-       position: relative;
-       right: 2rem;
+       /* position: relative;
+       right: 2rem; */
+       max-width: 380px;
     }
 
     .testy p {
@@ -1085,7 +1085,7 @@ input {
 
     .letters {
         position: relative;
-        bottom: 6rem;
+        /* bottom: 6rem; */
         height: 50vh;
     }
 
@@ -1145,9 +1145,10 @@ input {
     }
 
     input {
-        width: 90%;
+        width: 100%;
         position: relative;
-        right: 20px;
+        right: 1px;
+        height: 50px;
 
     }
 
